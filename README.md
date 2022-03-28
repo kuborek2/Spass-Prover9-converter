@@ -15,3 +15,6 @@ https://www.cs.unm.edu/~mccune/mace4/manual/2009-11A/syntax.html
 
 Prover9 input state:
 https://www.cs.unm.edu/~mccune/mace4/manual/2009-11A/input.html
+
+Prover9 example input/output files:
+https://www.cs.unm.edu/~mccune/prover9/manual-examples.html
