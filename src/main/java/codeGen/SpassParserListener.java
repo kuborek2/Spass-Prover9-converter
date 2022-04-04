@@ -1,4 +1,6 @@
-package codeGen;// Generated from C:/projects/SpassAndProver9/src/grammar\SpassParser.g4 by ANTLR 4.9.2
+// Generated from C:/projects/SpassAndProver9/src/grammar\SpassParser.g4 by ANTLR 4.9.2
+package codeGen;
+
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**

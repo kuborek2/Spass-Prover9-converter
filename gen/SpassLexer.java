@@ -1,6 +1,4 @@
 // Generated from C:/projects/SpassAndProver9/src/grammar\SpassLexer.g4 by ANTLR 4.9.2
-package codeGen;
-
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -18,20 +16,20 @@ public class SpassLexer extends Lexer {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		Special_symbol=1, And=2, Author=3, Axioms=4, Begin_problem=5, Clause=6,
-		CloseB=7, CloseBc=8, CloseP=9, ClR=10, Cnf=11, Colon=12, Comma=13, Con=14,
-		Conjectures=15, Date=16, Description=17, Dnf=18, Dot=19, EmS=20, End_of_list=21,
-		End_problem=22, EqF=23, EqR=24, Equal=25, Equiv=26, Exists=27, Fac=28,
-		False_=29, Forall=30, Formula=31, Freely=32, Functions=33, Generated_by=34,
-		GeR=35, Hypothesis=36, Implied=37, Implies=38, Inp=39, KIV=40, LEM=41,
-		List_of_clauses=42, List_of_declarations=43, List_of_descriptions=44,
-		List_of_formulae=45, List_of_general_settings=46, List_of_proof=47, List_of_settings=48,
-		List_of_symbols=49, Logic=50, MOne=51, MPm=52, Name=53, Not=54, Obv=55,
-		OHy=56, OpenB=57, OpenBc=58, OpenP=59, OPm=60, Or=61, OTTER=62, Predicate=63,
-		Predicates=64, PROTEIN=65, Rew=66, RRE=67, Satisfiable=68, SATURATE=69,
-		SETHEO=70, SHy=71, SoR=72, Sort=73, Sorts=74, SPASS=75, SpL=76, Splitlevel=77,
-		SPm=78, SpR=79, Spt=80, SSi=81, Status=82, Step=83, Subsort=84, Ter=85,
-		ThreeTAP=86, True_=87, UnC=88, Unknown=89, Unsatisfiable=90, URR=91, Version=92,
+		Special_symbol=1, And=2, Author=3, Axioms=4, Begin_problem=5, Clause=6, 
+		CloseB=7, CloseBc=8, CloseP=9, ClR=10, Cnf=11, Colon=12, Comma=13, Con=14, 
+		Conjectures=15, Date=16, Description=17, Dnf=18, Dot=19, EmS=20, End_of_list=21, 
+		End_problem=22, EqF=23, EqR=24, Equal=25, Equiv=26, Exists=27, Fac=28, 
+		False_=29, Forall=30, Formula=31, Freely=32, Functions=33, Generated_by=34, 
+		GeR=35, Hypothesis=36, Implied=37, Implies=38, Inp=39, KIV=40, LEM=41, 
+		List_of_clauses=42, List_of_declarations=43, List_of_descriptions=44, 
+		List_of_formulae=45, List_of_general_settings=46, List_of_proof=47, List_of_settings=48, 
+		List_of_symbols=49, Logic=50, MOne=51, MPm=52, Name=53, Not=54, Obv=55, 
+		OHy=56, OpenB=57, OpenBc=58, OpenP=59, OPm=60, Or=61, OTTER=62, Predicate=63, 
+		Predicates=64, PROTEIN=65, Rew=66, RRE=67, Satisfiable=68, SATURATE=69, 
+		SETHEO=70, SHy=71, SoR=72, Sort=73, Sorts=74, SPASS=75, SpL=76, Splitlevel=77, 
+		SPm=78, SpR=79, Spt=80, SSi=81, Status=82, Step=83, Subsort=84, Ter=85, 
+		ThreeTAP=86, True_=87, UnC=88, Unknown=89, Unsatisfiable=90, URR=91, Version=92, 
 		WS=93, Open=94, Identifier=95, Letter=96, Digit=97, Close=98, JustText=99;
 	public static final int
 		TextMode=1;
@@ -45,19 +43,19 @@ public class SpassLexer extends Lexer {
 
 	private static String[] makeRuleNames() {
 		return new String[] {
-			"Special_symbol", "And", "Author", "Axioms", "Begin_problem", "Clause",
-			"CloseB", "CloseBc", "CloseP", "ClR", "Cnf", "Colon", "Comma", "Con",
-			"Conjectures", "Date", "Description", "Dnf", "Dot", "EmS", "End_of_list",
-			"End_problem", "EqF", "EqR", "Equal", "Equiv", "Exists", "Fac", "False_",
-			"Forall", "Formula", "Freely", "Functions", "Generated_by", "GeR", "Hypothesis",
-			"Implied", "Implies", "Inp", "KIV", "LEM", "List_of_clauses", "List_of_declarations",
-			"List_of_descriptions", "List_of_formulae", "List_of_general_settings",
-			"List_of_proof", "List_of_settings", "List_of_symbols", "Logic", "MOne",
-			"MPm", "Name", "Not", "Obv", "OHy", "OpenB", "OpenBc", "OpenP", "OPm",
-			"Or", "OTTER", "Predicate", "Predicates", "PROTEIN", "Rew", "RRE", "Satisfiable",
-			"SATURATE", "SETHEO", "SHy", "SoR", "Sort", "Sorts", "SPASS", "SpL",
-			"Splitlevel", "SPm", "SpR", "Spt", "SSi", "Status", "Step", "Subsort",
-			"Ter", "ThreeTAP", "True_", "UnC", "Unknown", "Unsatisfiable", "URR",
+			"Special_symbol", "And", "Author", "Axioms", "Begin_problem", "Clause", 
+			"CloseB", "CloseBc", "CloseP", "ClR", "Cnf", "Colon", "Comma", "Con", 
+			"Conjectures", "Date", "Description", "Dnf", "Dot", "EmS", "End_of_list", 
+			"End_problem", "EqF", "EqR", "Equal", "Equiv", "Exists", "Fac", "False_", 
+			"Forall", "Formula", "Freely", "Functions", "Generated_by", "GeR", "Hypothesis", 
+			"Implied", "Implies", "Inp", "KIV", "LEM", "List_of_clauses", "List_of_declarations", 
+			"List_of_descriptions", "List_of_formulae", "List_of_general_settings", 
+			"List_of_proof", "List_of_settings", "List_of_symbols", "Logic", "MOne", 
+			"MPm", "Name", "Not", "Obv", "OHy", "OpenB", "OpenBc", "OpenP", "OPm", 
+			"Or", "OTTER", "Predicate", "Predicates", "PROTEIN", "Rew", "RRE", "Satisfiable", 
+			"SATURATE", "SETHEO", "SHy", "SoR", "Sort", "Sorts", "SPASS", "SpL", 
+			"Splitlevel", "SPm", "SpR", "Spt", "SSi", "Status", "Step", "Subsort", 
+			"Ter", "ThreeTAP", "True_", "UnC", "Unknown", "Unsatisfiable", "URR", 
 			"Version", "WS", "Open", "Identifier", "Letter", "Digit", "Close", "JustText"
 		};
 	}
@@ -65,40 +63,40 @@ public class SpassLexer extends Lexer {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, "'-'", "'and'", "'author'", "'axioms'", "'begin_problem'", "'clause'",
-			"']'", "'}'", "')'", "'ClR'", "'cnf'", "':'", "','", "'Con'", "'conjectures'",
-			"'date'", "'description'", "'dnf'", "'.'", "'EmS'", "'end_of_list'",
-			"'end_problem'", "'EqF'", "'EqR'", "'equal'", "'equiv'", "'exists'",
-			"'Fac'", "'false'", "'forall'", "'formula'", "'freely'", "'functions'",
-			"'generated_by'", "'GeR'", "'hypothesis'", "'implied'", "'implies'",
-			"'Inp'", "'KIV'", "'LEM'", "'list_of_clauses'", "'list_of_declarations'",
-			"'list_of_descriptions'", "'list_of_formulae'", "'list_of_general_settings'",
-			"'list_of_proof'", "'list_of_settings'", "'list_of_symbols'", "'logic'",
-			"'-1'", "'MPm'", "'name'", "'not'", "'Obv'", "'OHy'", "'['", "'{'", "'('",
-			"'OPm'", "'or'", "'OTTER'", "'predicate'", "'predicates'", "'PROTEIN'",
-			"'Rew'", "'RRE'", "'satisfiable'", "'SATURATE'", "'SETHEO'", "'SHy'",
-			"'SoR'", "'sort'", "'sorts'", "'SPASS'", "'SpL'", "'splitlevel'", "'SPm'",
-			"'SpR'", "'Spt'", "'SSi'", "'status'", "'step'", "'subsort'", "'Ter'",
-			"'3TAP'", "'true'", "'UnC'", "'unknown'", "'unsatisfiable'", "'URR'",
+			null, "'-'", "'and'", "'author'", "'axioms'", "'begin_problem'", "'clause'", 
+			"']'", "'}'", "')'", "'ClR'", "'cnf'", "':'", "','", "'Con'", "'conjectures'", 
+			"'date'", "'description'", "'dnf'", "'.'", "'EmS'", "'end_of_list'", 
+			"'end_problem'", "'EqF'", "'EqR'", "'equal'", "'equiv'", "'exists'", 
+			"'Fac'", "'false'", "'forall'", "'formula'", "'freely'", "'functions'", 
+			"'generated_by'", "'GeR'", "'hypothesis'", "'implied'", "'implies'", 
+			"'Inp'", "'KIV'", "'LEM'", "'list_of_clauses'", "'list_of_declarations'", 
+			"'list_of_descriptions'", "'list_of_formulae'", "'list_of_general_settings'", 
+			"'list_of_proof'", "'list_of_settings'", "'list_of_symbols'", "'logic'", 
+			"'-1'", "'MPm'", "'name'", "'not'", "'Obv'", "'OHy'", "'['", "'{'", "'('", 
+			"'OPm'", "'or'", "'OTTER'", "'predicate'", "'predicates'", "'PROTEIN'", 
+			"'Rew'", "'RRE'", "'satisfiable'", "'SATURATE'", "'SETHEO'", "'SHy'", 
+			"'SoR'", "'sort'", "'sorts'", "'SPASS'", "'SpL'", "'splitlevel'", "'SPm'", 
+			"'SpR'", "'Spt'", "'SSi'", "'status'", "'step'", "'subsort'", "'Ter'", 
+			"'3TAP'", "'true'", "'UnC'", "'unknown'", "'unsatisfiable'", "'URR'", 
 			"'version'", null, "'{*'", null, null, null, "'*}'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
 		return new String[] {
-			null, "Special_symbol", "And", "Author", "Axioms", "Begin_problem", "Clause",
-			"CloseB", "CloseBc", "CloseP", "ClR", "Cnf", "Colon", "Comma", "Con",
-			"Conjectures", "Date", "Description", "Dnf", "Dot", "EmS", "End_of_list",
-			"End_problem", "EqF", "EqR", "Equal", "Equiv", "Exists", "Fac", "False_",
-			"Forall", "Formula", "Freely", "Functions", "Generated_by", "GeR", "Hypothesis",
-			"Implied", "Implies", "Inp", "KIV", "LEM", "List_of_clauses", "List_of_declarations",
-			"List_of_descriptions", "List_of_formulae", "List_of_general_settings",
-			"List_of_proof", "List_of_settings", "List_of_symbols", "Logic", "MOne",
-			"MPm", "Name", "Not", "Obv", "OHy", "OpenB", "OpenBc", "OpenP", "OPm",
-			"Or", "OTTER", "Predicate", "Predicates", "PROTEIN", "Rew", "RRE", "Satisfiable",
-			"SATURATE", "SETHEO", "SHy", "SoR", "Sort", "Sorts", "SPASS", "SpL",
-			"Splitlevel", "SPm", "SpR", "Spt", "SSi", "Status", "Step", "Subsort",
-			"Ter", "ThreeTAP", "True_", "UnC", "Unknown", "Unsatisfiable", "URR",
+			null, "Special_symbol", "And", "Author", "Axioms", "Begin_problem", "Clause", 
+			"CloseB", "CloseBc", "CloseP", "ClR", "Cnf", "Colon", "Comma", "Con", 
+			"Conjectures", "Date", "Description", "Dnf", "Dot", "EmS", "End_of_list", 
+			"End_problem", "EqF", "EqR", "Equal", "Equiv", "Exists", "Fac", "False_", 
+			"Forall", "Formula", "Freely", "Functions", "Generated_by", "GeR", "Hypothesis", 
+			"Implied", "Implies", "Inp", "KIV", "LEM", "List_of_clauses", "List_of_declarations", 
+			"List_of_descriptions", "List_of_formulae", "List_of_general_settings", 
+			"List_of_proof", "List_of_settings", "List_of_symbols", "Logic", "MOne", 
+			"MPm", "Name", "Not", "Obv", "OHy", "OpenB", "OpenBc", "OpenP", "OPm", 
+			"Or", "OTTER", "Predicate", "Predicates", "PROTEIN", "Rew", "RRE", "Satisfiable", 
+			"SATURATE", "SETHEO", "SHy", "SoR", "Sort", "Sorts", "SPASS", "SpL", 
+			"Splitlevel", "SPm", "SpR", "Spt", "SSi", "Status", "Step", "Subsort", 
+			"Ter", "ThreeTAP", "True_", "UnC", "Unknown", "Unsatisfiable", "URR", 
 			"Version", "WS", "Open", "Identifier", "Letter", "Digit", "Close", "JustText"
 		};
 	}
