@@ -7,11 +7,9 @@ import codeGen.SpassParserBaseVisitor;
 public class SpassToPower9Visitor extends SpassParserBaseVisitor {
 
     private final StringBuilder stringBuilder;
-    private int counter;
 
     SpassToPower9Visitor(StringBuilder stringBuilder) {
         this.stringBuilder = stringBuilder;
-        this.counter = 1;
     }
 
     @Override
