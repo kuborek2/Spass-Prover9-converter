@@ -85,7 +85,7 @@ public class Main {
     private static String readFromInputStreamtwo(){
         StringBuilder resultStringBuilder = new StringBuilder();
         try {
-            File currentDir = new File("C:\\projects\\SpassAndProver9\\src\\example\\spass\\AlexandraHiestermann.spass");
+            File currentDir = new File("C:\\projects\\SpassAndProver9\\src\\example\\prover9\\AlexandraHiestermann.prover9");
             Scanner myReader = new Scanner(currentDir );
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
