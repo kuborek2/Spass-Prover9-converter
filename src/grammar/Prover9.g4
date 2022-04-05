@@ -10,21 +10,6 @@ formulas
 	goals
 	;
 
-asumptions
-	: FORMULAS LPAREN ASSUMPLTIONS RPAREN DOT
-	  stat*
-	  END_OF_LIST DOT
-	;
-
-goals
-	: FORMULAS LPAREN GOALS RPAREN DOT
-	  stat*
-	  END_OF_LIST DOT
-	;
-stat
-	: formula DOT
-	;
-
 clause
     :
     'positive'
@@ -44,6 +29,23 @@ clause
     | 'subsumer'
     | 'back_demodulant'
     | 'paramodulant';
+
+
+asumptions
+	: FORMULAS LPAREN ASSUMPLTIONS RPAREN DOT
+	  stat*
+	  END_OF_LIST DOT
+	;
+
+goals
+	: FORMULAS LPAREN GOALS RPAREN DOT
+	  stat*
+	  END_OF_LIST DOT
+	;
+stat
+	: formula DOT
+	;
+
 
 
 predicate
