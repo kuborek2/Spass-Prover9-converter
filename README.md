@@ -1,3 +1,6 @@
+Documentation in PL:
+[Prover9 and Spass documentation.pdf](https://github.com/kuborek2/Spass-Prover9-converter/files/8417976/Prover9.and.Spass.documentation.pdf)
+
 # Spass-Prover9-converter
 University project, which goals is to be able to parse Spass and Prover9 input states between each other
 
