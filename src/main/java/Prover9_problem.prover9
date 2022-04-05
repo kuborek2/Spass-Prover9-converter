@@ -1,0 +1,13 @@
+formulas(assumptions).
+  A(x) -> B(x).
+  B(y) -> C(y).
+
+  A(z).
+
+end_of_list.
+
+formulas(goals).
+
+  C(z).
+
+end_of_list.

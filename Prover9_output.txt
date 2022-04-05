@@ -1,0 +1,8 @@
+formulas(assumptions).
+y(x).
+y(x) -> z(x).
+end_of_list.
+formulas(goals).
+z(x).
+end_of_list.
+
