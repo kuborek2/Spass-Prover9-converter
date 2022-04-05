@@ -20,7 +20,7 @@ redeclare(attribute,                   @      ).
 
 formulas(assumptions).
 
-  (x * y) * z == z * (y * z)  @  label(associativity).
+  (x * y) * z == y * (x * z)  @  label(associativity).
 
   EXISTS e ((ALL x (e * x == x)) AND
             (ALL x EXISTS y (y * x == e))) @ label(left_identity_inverse).
